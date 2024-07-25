@@ -1,0 +1,17 @@
+.rocket {
+    position: absolute;
+    left: 0;
+    animation: move 2s linear forwards;
+  }
+  
+  @keyframes move {
+    0% {
+      left: -200px;
+      opacity: 0.3;
+    }
+  
+    100% {
+      left: 240px;
+      opacity: 1;
+    }
+  }
